@@ -20,15 +20,19 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 1. Enter the cloned directory
 1. Run the code. If you need help, see *Running the code* below.
 
-## Task 4: Make changes and commit them
+## Task 4: Make changes, commit and push them to Github
 
 1. Modify *src/index.jsx*
-1. Save the changes to Github. You will need *git status*, *git add*, *git commit* and *git push*.
+1. Check what files have been changed (`git status`)
+1. Add the changed files to staging area (`git add`)
+1. Make a commit with a comment of the changes (`git commit`)
+1. Save the changes to Github (`git push`)
 
-## Task 5: Push the code to Github
+## Task 5: Create a Heroku account and run your code there
 
+1. Try first yourself. If you need help, see *Running this lesson in Heroku* below.
 
-## Task 6: Create a Heroku account and run your code there
+**Tip:** You will need to set development environment (**NPM_CONFIG_PRODUCTION**) and (**PORT**) to run it correctly.
 
 
 ## Running the code
@@ -36,6 +40,7 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 ### What you will need
 
 [nodejs](https://nodejs.org/en/download/package-manager/) or [docker](https://docs.docker.com/install/).
+
 
 ### Running with Node
 
