@@ -4,6 +4,7 @@ This is a template for a new React project. It includes all necessary bootstrap 
 
 The purpose of this lesson is to learn the basics of a distributed version control. The exercises below will take you through the common operations using Git and Github. As a result you have also mastered writing a new React application using a template you could reuse and reprocude yourself. No magic involved.
 
+
 ## Task 1: Getting started
 
 1. Create an account on Github
