@@ -1,0 +1,66 @@
+# Lesson 2: React Template Project
+
+This is a template for a new React project. It includes all necessary bootstrap code to enable starting with writing the application logic immediately.
+
+The purpose of this lesson is to learn the basics of a distributed version control. The exercises below will take you through the common operations using Git and Github. As a result you have also mastered writing a new React application using a template you could reuse and reprocude yourself. No magic involved.
+
+## Task 1: Getting started
+
+1. Create an account on Github
+1. Add your SSH public key to Github to be able to make changes
+1. Set your user information in your Git configuration
+
+## Task 2: Forking and cloning this repository 
+
+1. Fork this repository
+1. Clone the forked repository to your computer
+
+## Task 3: Run the code on your computer
+
+1. Enter the cloned directory
+1. Run the code. If you need help, see *Running the code* below.
+
+## Task 4: Make changes and commit them
+
+1. Modify *src/index.jsx*
+1. Save the changes to Github. You will need *git status*, *git add*, *git commit* and *git push*.
+
+## Task 5: Push the code to Github
+
+
+## Task 6: Create a Heroku account and run your code there
+
+
+## Running the code
+
+### What you will need
+
+[nodejs](https://nodejs.org/en/download/package-manager/) or [docker](https://docs.docker.com/install/).
+
+### Running with Node
+
+* Install [nodejs](https://nodejs.org/en/download/package-manager/).
+* Go to the project directory using a terminal / shell.
+* Install dependencies `npm install`
+* Run the app `npm start`
+* Open browser in [http://localhost:8000](http://localhost:8000)
+
+
+### Running with Docker
+
+* Install [docker](https://docs.docker.com/install/).
+* Go to the project directory using a terminal / shell.
+* Build the app `docker-compose build` (this is an optional step on the first time)
+* Run the app `docker-compose up`
+* Open browser in [http://localhost:8000](http://localhost:8000)
+
+
+## Running this lesson in Heroku
+
+1. Install [heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
+1. Login to heroku on command line: `heroku login`
+1. Create a new app. If name is left blank, heroku will generate one for you: `heroku create <name>`
+1. See that heroku created a remote repository for you: `git remote -v`.
+1. Tell heroku to install dependencies for development use: `heroku config:set NPM_CONFIG_PRODUCTION=false`
+1. Tell the application to use port 80 instead of 8080: `heroku config:set PORT=80`
+1. Push your code to heroku: `git push heroku master`
