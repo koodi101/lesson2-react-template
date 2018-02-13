@@ -1,0 +1,32 @@
+{
+  "name": "react-tictactoe",
+  "version": "0.0.1",
+  "description": "Koodi101 React TicTacToe",
+  "author": "Marko Klemetti <marko.klemetti@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koodi101/react-tictactoe.git"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --config webpack.development.js --progress --inline --colors"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

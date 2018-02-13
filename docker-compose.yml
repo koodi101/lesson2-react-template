@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  frontend:
+    build: .
+    volumes:
+      - ./src:/usr/src/app/src
+    ports:
+      - 8000:8000
