@@ -41,6 +41,7 @@ Write an application that collects a weather forecast from [Eficode weather fore
 
 Release your application in Heroku.
 
+If you feel like it, add **geolocation** to your application and fetch the forecast at the users's location.
 
 ## Running the code
 
