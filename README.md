@@ -37,7 +37,7 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 
 ## Homework: Connect your React-application to a Backend
 
-Write an application that collects a weather forecast from [Eficode weather forecast](weatherapp.eficode.fi/api/forecast). For that purpose you can use the [instructions and API information here](https://github.com/eficode/weatherapp-mobile) and e.g. [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
+Write an application that collects a weather forecast from [Eficode weather forecast](https://weatherapp.eficode.fi/api/forecast). For that purpose you can use the [instructions and API information here](https://github.com/eficode/weatherapp-mobile) and e.g. [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 
 Release your application in Heroku.
 

@@ -3,6 +3,8 @@
 
 # Editors
 .vscode
+*.iml
+.idea
 
 # Node
 node_modules
