@@ -73,6 +73,7 @@ If you feel like it, add **geolocation** to your application and fetch the forec
 ## Running this lesson in Heroku
 
 1. Install [heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
+1. Create account to Heroku (sign up)
 1. Login to heroku on command line: `heroku login`
 1. Create a new app. If name is left blank, heroku will generate one for you: `heroku create <name>`
 1. See that heroku created a remote repository for you: `git remote -v`.
