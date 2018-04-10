@@ -8,8 +8,8 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 ## Task 1: Getting started
 
 1. Create an account on Github
-1. Add your SSH public key to Github to be able to make changes
-1. Set your user information in your Git configuration
+1. Add your SSH public key to Github to be able to make changes (https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+1. Set your user information in your Git configuration (https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 ## Task 2: Forking and cloning this repository 
 
