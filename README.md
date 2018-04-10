@@ -8,10 +8,10 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 ## Task 1: Getting started
 
 1. Create an account on Github
-1. Add your SSH public key to Github to be able to make changes 
-  - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
-  - https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
-1. Set your user information in your Git configuration
+2. Add your SSH public key to Github to be able to make changes 
+   * https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+   * https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+3. Set your user information in your Git configuration
 
 ## Task 2: Forking and cloning this repository 
 
@@ -73,9 +73,11 @@ If you feel like it, add **geolocation** to your application and fetch the forec
 ## Running this lesson in Heroku
 
 1. Install [heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
+1. Go to the project directory using a terminal / shell.
 1. Login to heroku on command line: `heroku login`
 1. Create a new app. If name is left blank, heroku will generate one for you: `heroku create <name>`
 1. See that heroku created a remote repository for you: `git remote -v`.
 1. Tell heroku to install dependencies for development use: `heroku config:set NPM_CONFIG_PRODUCTION=false`
 1. Tell the application to use port 80 instead of 8080: `heroku config:set PORT=80`
 1. Push your code to heroku: `git push heroku master`
+1. Navigate to your project URL using browser to see it running in Heroku
