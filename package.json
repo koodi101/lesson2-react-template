@@ -1,32 +1,33 @@
 {
-  "name": "react-tictactoe",
+  "name": "lessaon2-react-template",
   "version": "0.0.1",
-  "description": "Koodi101 React TicTacToe",
+  "description": "Lesson 2 - Koodi101 React Template",
   "author": "Marko Klemetti <marko.klemetti@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/koodi101/react-tictactoe.git"
+    "url": "https://github.com/koodi101/lesson2-react-template.git"
   },
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --config webpack.development.js --progress --inline --colors"
   },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "css-loader": "^0.28.9",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "html-webpack-plugin": "^2.30.1",
-    "style-loader": "^0.20.1",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.11.1"
-  },
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.52",
+    "@babel/polyfill": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-react": "^7.0.0-beta.52",
+    "babel-loader": "^8.0.0-beta.4",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
