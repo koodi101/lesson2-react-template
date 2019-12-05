@@ -33,7 +33,7 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 
 ## Task 5: Create a Heroku account and run your code there
 
-1. Try first yourself. If you need help, see *Running this lesson in Heroku* below.
+1. Try first yourself. If you need help, see [Running this lesson in Heroku](#running-this-lesson-in-heroku).
 
 **Tip:** You will need to set development environment (**NPM_CONFIG_PRODUCTION**) and (**PORT**) to run it correctly.
 
