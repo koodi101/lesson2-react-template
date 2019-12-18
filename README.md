@@ -27,8 +27,8 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 
 1. Modify *src/index.jsx*
 1. Check what files have been changed (`git status`)
-1. Add the changed files to staging area (`git add`)
-1. Make a commit with a comment of the changes (`git commit`)
+1. Add the changed files to staging area (`git add <files_to_add>`)
+1. Make a commit with a comment of the changes (`git commit -m "<commit_message>"`)
 1. Save the changes to Github (`git push`)
 
 ## Task 5: Create a Heroku account and run your code there
