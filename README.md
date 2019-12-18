@@ -31,6 +31,8 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 1. Make a commit with a comment of the changes (`git commit`)
 1. Save the changes to Github (`git push`)
 
+![Git Guide](git-guide.png)
+
 ## Task 5: Create a Heroku account and run your code there
 
 1. Try first yourself. If you need help, see [Running this lesson in Heroku](#running-this-lesson-in-heroku).
