@@ -35,15 +35,15 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 
 1. Try first yourself. If you need help, see [Running this lesson in Heroku](#running-this-lesson-in-heroku).
 
-**Tip:** You will need to set development environment (**NPM_CONFIG_PRODUCTION**) and (**PORT**) to run it correctly.
+> **Tip:** You will need to set development environment (**NPM_CONFIG_PRODUCTION**) and (**PORT**) to run it correctly.
 
 ## Homework: Connect your React-application to a Backend
 
 Write an application that collects a weather forecast from [Eficode weather forecast](https://weatherapp.eficode.fi/api/forecast). For that purpose you can use the [instructions and API information here](https://github.com/eficode/weatherapp-mobile) and e.g. [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 
-Release your application in Heroku.
+[Release your application in Heroku.](#running-this-lesson-in-heroku)
 
-If you feel like it, add **geolocation** to your application and fetch the forecast at the users's location.
+> If you feel like it, add **geolocation** to your application and fetch the forecast at the users's location.
 
 ## Running the code
 
