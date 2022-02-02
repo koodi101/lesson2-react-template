@@ -82,3 +82,4 @@ Write an application that collects a weather forecast from [Eficode weather fore
 1. Tell heroku to install dependencies for development use: `heroku config:set NPM_CONFIG_PRODUCTION=false`
 1. Tell the application to use port 80 instead of 8080: `heroku config:set PORT=80`
 1. Push your code to heroku: `git push heroku master`
+1. Open the website: `https://<your app name>.herokuapp.com/`
