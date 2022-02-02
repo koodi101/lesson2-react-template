@@ -77,6 +77,7 @@ Write an application that collects a weather forecast from [Eficode weather fore
 1. Install [heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
 1. Login to heroku on command line: `heroku login`
 1. Create a new app. If name is left blank, heroku will generate one for you: `heroku create <name>`
+   > This will also add a new remote called `heroku` to your local git repository
 1. See that heroku created a remote repository for you: `git remote -v`.
 1. Tell heroku to install dependencies for development use: `heroku config:set NPM_CONFIG_PRODUCTION=false`
 1. Tell the application to use port 80 instead of 8080: `heroku config:set PORT=80`
