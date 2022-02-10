@@ -1,7 +1,7 @@
 {
   "name": "lesson2-react-template",
-  "version": "1.0.0",
-  "description": "Koodi101 lesson2",
+  "version": "0.0.1",
+  "description": "Lesson 2 - Koodi101 React Template",
   "author": "Marko Klemetti <marko.klemetti@gmail.com>",
   "license": "MIT",
   "repository": {
