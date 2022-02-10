@@ -7,3 +7,4 @@ services:
       - ./src:/usr/src/app/src
     ports:
       - 8000:8000
+    tty: true # enable colors

@@ -1,7 +1,7 @@
 {
-  "name": "my-webpack-project",
+  "name": "lesson2-react-template",
   "version": "1.0.0",
-  "description": "My webpack project",
+  "description": "Koodi101 lesson2",
   "author": "Marko Klemetti <marko.klemetti@gmail.com>",
   "license": "MIT",
   "repository": {
