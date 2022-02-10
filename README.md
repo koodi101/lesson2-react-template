@@ -7,6 +7,7 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 
 ## Task 1: Getting started
 
+1. Install Git-bash for Windows from https://gitforwindows.org/
 1. Create an account on Github
 1. Add your SSH public key to Github to be able to make changes 
   - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
@@ -21,7 +22,7 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 ## Task 3: Run the code on your computer
 
 1. Enter the cloned directory
-1. Run the code. If you need help, see *Running the code* below.
+1. Run the code. If you need help, see [Running the code](#running-the-code).
 
 ## Task 4: Make changes, commit and push them to Github
 
@@ -39,20 +40,27 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 
 > **Tip:** You will need to set development environment (**NPM_CONFIG_PRODUCTION**) and (**PORT**) to run it correctly.
 
-## Homework: Connect your React-application to a Backend
+## Homework (easy): Learn git branching
 
-Write an application that collects a weather forecast from [Eficode weather forecast](https://weatherapp.eficode.fi/api/forecast). For that purpose you can use the [instructions and API information here](https://github.com/eficode/weatherapp-mobile) and e.g. [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
+1. Open https://learngitbranching.js.org/
+1. From _Introduction sequence_ click the button 1
+1. Continue the tutorial. You are finished once it starts talking about rebasing.
 
-[Release your application in Heroku.](#running-this-lesson-in-heroku)
+## Homework (hard): Connect your React-application to a Backend
 
-> If you feel like it, add **geolocation** to your application and fetch the forecast at the users's location.
+The task is to write an application that collects a weather forecast from [Eficode weather forecast](https://weatherapp.eficode.fi/api/forecast).
+
+The [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) function will be useful for this purpose.
+
+1. Examine this example about state and the `componentDidMount` method: https://codelikethis.com/lessons/react/fetching-data
+1. Display information about the weather on the page, for example the temperature of the first element on the list.
+1. Finally [release your application in Heroku](#running-this-lesson-in-heroku)
 
 ## Running the code
 
 ### What you will need
 
 [nodejs](https://nodejs.org/en/download/package-manager/) or [docker](https://docs.docker.com/install/).
-
 
 ### Running with Node
 
