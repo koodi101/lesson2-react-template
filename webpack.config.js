@@ -16,9 +16,11 @@ const config = {
         path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
-        open: true,
-        host: '0.0.0.0', // Listens on all interfaces
-        port: 8000,
+        open: true, // Open browser once started
+        historyApiFallback: true,
+        host: process.env.HOST || '0.0.0.0', // Listens on all interfaces
+        port: process.env.PORT || 8000,
+
     },
     plugins: [
         new HtmlWebpackPlugin({
