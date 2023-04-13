@@ -34,11 +34,14 @@ The purpose of this lesson is to learn the basics of a distributed version contr
 
 ![Git Guide](git-guide.png)
 
-## Task 5: Create a Heroku account and run your code there
+## Task 5: Create a Vercel account and deploy the application
 
-1. Try first yourself. If you need help, see [Running this lesson in Heroku](#running-this-lesson-in-heroku).
+Steps:
 
-> **Tip:** You will need to set development environment (**NPM_CONFIG_PRODUCTION**) and (**PORT**) to run it correctly.
+1. Go to [Vercel](https://vercel.com) and create an account linked with you GitHub account. Give Vercel access to at least your fork of this lesson 2 repository.
+1. To deploy your application, go to `Import Git Repository` and click `Import` next to lesson2-react-template.
+1. Open the `Build and Output Settings` and check the `OVERRIDE` switch next to `Output Directory`. Write `dist` in the text input field.
+1. Press deploy!
 
 ## Homework (easy): Learn git branching
 
@@ -69,25 +72,3 @@ The [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_F
 * Install dependencies `npm install`
 * Run the app `npm start`
 * Open browser in [http://localhost:8000](http://localhost:8000)
-
-
-### Running with Docker
-
-* Install [docker](https://docs.docker.com/install/).
-* Go to the project directory using a terminal / shell.
-* Build the app `docker-compose build` (this is an optional step on the first time)
-* Run the app `docker-compose up`
-* Open browser in [http://localhost:8000](http://localhost:8000)
-
-
-## Running this lesson in Heroku
-
-1. Install [heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
-1. Login to heroku on command line: `heroku login`
-1. Create a new app. If name is left blank, heroku will generate one for you: `heroku create <name>`
-   > This will also add a new remote called `heroku` to your local git repository
-1. See that heroku created a remote repository for you: `git remote -v`.
-1. Tell heroku to install dependencies for development use: `heroku config:set NPM_CONFIG_PRODUCTION=false`
-1. Tell the application to use port 80 instead of 8080: `heroku config:set PORT=80`
-1. Push your code to heroku: `git push heroku master`
-1. Open the website: `https://<your app name>.herokuapp.com/`
