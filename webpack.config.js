@@ -1,3 +1,10 @@
+// +----------------------------------+
+// |       *NOTE TO STUDENTS*         |
+// |                                  |
+// | You don't need to understand or  |
+// | modify the contents of this file |
+// +----------------------------------+
+
 // Generated using webpack-cli https://github.com/webpack/webpack-cli
 
 const path = require('path');
@@ -11,7 +18,7 @@ const stylesHandler = 'style-loader';
 
 
 const config = {
-    entry: './src/index.jsx',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
     },
@@ -25,6 +32,7 @@ const config = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/public/index.html',
+            favicon: './src/public/favicon.ico',
         }),
 
         // Add your plugins here
@@ -54,8 +62,8 @@ const config = {
 module.exports = () => {
     if (isProduction) {
         config.mode = 'production';
-        
-        
+
+
     } else {
         config.mode = 'development';
     }
